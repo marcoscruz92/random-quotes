@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12"><h2 class="center-align">Random quotes generator</h2>
+      <h5 class="center-align">Here are some inspiring quotes by extraordinary people</h5>
+      </div>
+    </div>
+   <div class="row">
+      <div class="col s12">
+        <div class="quoteBlock card hoverable">
+          <h5 class="center-align">"<span id="quote">The only way to climb properly is to realize that just getting up a route is nothing, the way it is done is everything.</span>"</h5>
+        <p class="center-align"><a id="tweetLink" href=""><i class="fa fa-twitter"></i></a>  -<span id="author">Royal Robbins</span></p>
+        </div>
+        <p id="newQuote" class="center-align"><a class="waves-effect waves-light btn">New quote</a></p>
+
+     </div>
+    </div>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>
